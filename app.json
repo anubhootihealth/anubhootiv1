@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "CurA_base",
+    "slug": "CurA_base",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildProperties": {
+        "useFrameworks": "static"
+      },
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.starter-base"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.starterbase"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY": "pk_test_dG91Z2gtYWxiYWNvcmUtODguY2xlcmsuYWNjb3VudHMuZGV2JA",
+      "EXPO_PUBLIC_CONVEX_URL": "https://calm-hedgehog-999.convex.cloud"
+    }
+  }
+}
